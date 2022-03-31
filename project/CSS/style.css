@@ -1,10 +1,10 @@
 
-  body a{
-    font-family: 'Lobster', 'cursive';
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Permanent Marker', 'cursive';
+  a {
+    font-family: 'Permanent Marker', 'cursive';
   }
 
-  body{
+  body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    line-height: 1.5vw;
   }
