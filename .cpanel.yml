@@ -1,0 +1,18 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /bin/cp .DS_Store $DEPLOYPATH
+     - /bin/cp README.md $DEPLOYPATH
+     - /bin/cp about.html $DEPLOYPATH
+     - /bin/cp contact.html $DEPLOYPATH
+     - /bin/cp index.html $DEPLOYPATH
+     - /bin/cp photography.html $DEPLOYPATH
+     - /bin/cp portfolio.html $DEPLOYPATH
+     - /bin/cp webdesign.html $DEPLOYPATH
+    
+    
+     /bin/cp -R CSS $DEPLOYPATH
+     /bin/cp -R fonts $DEPLOYPATH
+     /bin/cp -R images $DEPLOYPATH
+     /bin/cp -R project $DEPLOYPATH
